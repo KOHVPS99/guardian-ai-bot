@@ -1,1 +1,19 @@
-
+{
+  "name": "guardian-ai-bot",
+  "version": "1.0.0",
+  "description": "AI Discord bot with anti-spam, anti-raid, anti-nuke, SFW AI chat, and SFW image generation.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "openai": "^4.0.0"
+  }
+}
